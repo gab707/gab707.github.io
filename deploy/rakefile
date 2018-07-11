@@ -2,7 +2,7 @@ desc "Deploy"
 task :deploy do
   puts "## Deploying to Github Pages.."
 
-  (Dir["#deploy/*"]).each { |f| rm_rf(f) }
+  (Dir["#eploy/*"]).each { |f| rm_rf(f) }
 
   puts "## Copying source to deploy"
   cp_r "_site/.", "deploy/."
