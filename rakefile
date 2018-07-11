@@ -8,9 +8,9 @@ task :deploy do
   cp_r "_site/.", "deploy/."
 
   cd "deploy" do
+    system "rm -r deploy"
     system "git add ."
     system "git add -u"
-    system "git rm -r deploy"
     
     puts "## Commiting: Site updated at #{Time.now.utc}"
     message = "Site updated at #{Time.now.utc}"
