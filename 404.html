@@ -308,9 +308,9 @@
       
 
   <div class="col-lg-6" style="padding-bottom:50px">
-    <form role="form" action="http://formspree.io/gabriel.kocher@gmail.com" method="POST">
-      <input type="hidden" name="_next" value="//site.io/thanks.html" />
-      <input type="hidden" name="_subject" value="New submission!" />
+    
+    <form id="contactform" method="POST">
+      <input type="hidden" name="_subject" value="Message de contact de gab707.github.io" />
       <input type="text" name="_gotcha" style="display:none" />
       
       <div class="form-group">
@@ -328,22 +328,18 @@
 	<textarea name="InputMessage" id="InputMessage" class="form-control" rows="5" required></textarea>
       </div>
       
-      <div class="form-group">
-	<label for="InputReal">What is 4+3? (Simple Spam Checker)</label>
-	<input type="text" class="form-control" name="InputReal" id="InputReal" required>
-      </div>
       <input type="submit" name="submit" id="submit" value="Submit" class="btn btn-default btn-lg pull-right">
     </form>
+    <script>
+      var contactform =  document.getElementById('contactform');
+      contactform.setAttribute('action', '//formspree.io/' + 'gbariel.kocher' + '@' + 'gmail.com' + '.' + 'com');
+      </script>
   </div>
 
   <hr class="hidden-lg">
-  <div class="col-lg-5">
-    <address>
-      <h3>Address</h3>
-      <p>1902 Boulevard Desmarchais<br>
-	Montreal, QC H4E2B8<br>Canada<br>
-      </p>
-    </address>
+  <div class="col-lg-5" style="padding-top:30px">
+    <img class="img-rounded" src="img/backpack.jpg" width="91%">
+    
   </div>
 
 
