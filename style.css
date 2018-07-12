@@ -22,6 +22,18 @@ html {
     height: 100%;
 }
 
+
+video::-webkit-media-controls-start-playback-button {
+    display:none !important;
+    -webkit-appearance: none;
+    -moz-appearance:none;
+}
+
+
+
+video::-internal-media-controls-download-button{display:none;}
+video::-internal-media-controls-cast-button{display:none;}
+
 h1,
 h2,
 h3,
@@ -443,6 +455,8 @@ ul.banner-social-buttons {
 ul.banner-social-buttons li {
     margin-bottom: 15px;
 }
+
+
 
 @media(max-width:1199px) {
     ul.banner-social-buttons {
