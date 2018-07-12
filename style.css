@@ -37,14 +37,14 @@ h6 {
 
 p {
     margin: 0 0 25px;
-    font-size: 18px;
+    font-size: 22px;
     line-height: 1.5;
 }
 
 @media(min-width:767px) {
     p {
         margin: 0 0 35px;
-        font-size: 28px;
+        font-size: 26px;
         line-height: 1.6;
     }
 }
@@ -191,7 +191,7 @@ background-size: 100%;
 
 .intro .intro-body .intro-text {
     color:#d8d92e
-    font-size: 20px;
+    font-size: 40px;
 }
 
 @media(min-width:767px) {
@@ -206,7 +206,7 @@ background-size: 100%;
     }
 
     .intro .intro-body .intro-text {
-        font-size: 25px;
+        font-size: 30px;
     }
 }
 
